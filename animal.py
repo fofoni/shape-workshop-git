@@ -3,7 +3,7 @@ Classes de animais
 """
 
 
-class topeira:
+class Topeira:
     def __init__(self):
         self.nome = "ruffus"
         self.funcao = "salvar o Ron"
