@@ -2,9 +2,12 @@
 Classes de animais
 """
 
-import pandas as pd
-import numpy  as np
-
+class Topeira:
+    def __init__(self):
+        self.nome = "ruffus"
+        self.funcao = "salvar o Ron"
+        self.desenho = "Kim Possible"
+        
 class Cachorro:
 
     def __init__ (self, nome = 'Jorge'):
@@ -15,3 +18,4 @@ class Cachorro:
 
     def nome(self):
         print(f'{self.nome}')
+        
