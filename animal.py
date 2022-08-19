@@ -15,3 +15,11 @@ class Cachorro:
 
     def nome(self):
         print(f'{self.nome}')
+
+
+class Polvo:
+    def __init__(self):
+        self.nome = "O Polvo"
+
+    def nadar(self):
+        print(f"{self.name} nadou")
